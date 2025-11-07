@@ -1,27 +1,29 @@
 name: Project Build
 
-on [push]
+on: [push]
 
 jobs:
   build-pack:
     name: Use pakku to build the curseforge pack
     runs-on: ubuntu-lts
+    
+    steps:
+    
+    - name: Checkout Repo
+      uses: actions/checkout@v4
 
-  - name: Checkout Repo
-    uses: actions/checkout@v5
-
-  - name: Setup Java environment
-    uses: actions/setup-java@v5
-    with:
-      distribution: 'temurin' # See 'Supported distributions' for available options
-      java-version: '17'
+    - name: Setup Java JDK
+      uses: actions/setup-java@v5
+      with:
+        distribution: 'temurin' # See 'Supported distributions' for available options
+        java-version: '17'
   
-  - name: Build pack
-    run: |
-      java -jar pakku.jar export
+    - name: Build pack
+      run: |
+        java -jar pakku.jar export
 
-  - name: 🚀 Upload artifact CurseForge
-      uses: actions/upload-artifact@v4
+    - name: Upload artifact CurseForge
+      uses: actions/upload-artifact@v3
       with:
         name: ${{ needs.info.outputs.project_full_name }}-curseforge
         path: ./build/curseforge/BearCraft*.zip
