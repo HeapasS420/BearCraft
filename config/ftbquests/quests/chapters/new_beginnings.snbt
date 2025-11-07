@@ -1,0 +1,330 @@
+{
+	autofocus_id: "2B56E0283E366D69"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "new_beginnings"
+	group: "623A6E7994E3A094"
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "37CC35F9B19CDB40"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B56E0283E366D69"
+			rewards: [{
+				count: 5
+				id: "71C057ECF2631250"
+				item: {
+					count: 1
+					id: "createfood:beef_meatball_sandwich"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "72F0CD20BACC59F9"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B56E0283E366D69"]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			id: "6330E1B2F50DE3D6"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "359F8D2D0353E095"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6A487532829DBDE8"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6330E1B2F50DE3D6"]
+			id: "661626787A8DF706"
+			rewards: [
+				{
+					id: "1A730243076EE2B0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "2AB73C4214081B3E"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0461D008F57A2A6F"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["661626787A8DF706"]
+			id: "4BCCF854DD6FF8AD"
+			rewards: [{
+				id: "364BB694AB2DA8A8"
+				item: {
+					count: 1
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51814A8B365E67F5"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BCCF854DD6FF8AD"]
+			id: "7ECD50A55CD44C45"
+			rewards: [{
+				id: "35A31F99CEA3273F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 3L
+				id: "0C5A4F127C56DE1B"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ECD50A55CD44C45"]
+			id: "7544B1419E23BF0A"
+			tasks: [{
+				id: "35B23153D0747616"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7544B1419E23BF0A"]
+			id: "12DAD62E94B061C5"
+			rewards: [
+				{
+					count: 4
+					id: "3D6A9ADE837DA229"
+					item: {
+						count: 1
+						id: "justdirethings:ferricore_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7690F047722A7D38"
+					item: {
+						count: 1
+						id: "kubejs:copper_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CE4712B49290F61"
+				item: { count: 1, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7ECD50A55CD44C45"]
+			id: "6886216FCA71B404"
+			rewards: [
+				{
+					id: "2430E23D52C97247"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "09E39BE8E5DCBC59"
+					item: {
+						count: 1
+						id: "kubejs:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "2AAC1816AF3F1F72"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["661626787A8DF706"]
+			id: "7EBB1A13FE1584A8"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "25A080EEE1A13B88"
+				item: {
+					count: 1
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "63327A9454D72F10"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6886216FCA71B404"]
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
+			id: "2470C0E8443E78E1"
+			rewards: [
+				{
+					id: "75570B965E04D33C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "33FA56A3FED6610E"
+					item: {
+						count: 1
+						id: "rusticdelight:milk_coffee"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "7FBB64F85B211908"
+					type: "dimension"
+				}
+				{
+					id: "70D663741CEE135F"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2470C0E8443E78E1"]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:wither"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A1D6B95AA08C800"
+			rewards: [
+				{
+					id: "62D07077DA398B86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CB41C50C60C99CE"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:crewmate_plush"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "5A2D7EBA80FEA321"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "14C1210E9A0BEB1C"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1D6B95AA08C800"]
+			id: "0CFCA88E52A6D771"
+			rewards: [
+				{
+					id: "665CC69E75B2537C"
+					item: {
+						count: 1
+						id: "kubejs:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4093D992D5119AC6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6C36454740011E86"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["661626787A8DF706"]
+			id: "1521C29DF9D782AB"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "74578A4E3667FF63"
+				item: {
+					count: 1
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72C43E6BCE3FF9CD"
+				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+	]
+}

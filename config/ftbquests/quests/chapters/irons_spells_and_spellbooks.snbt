@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells_and_spellbooks"
+	group: "39DDDDAC29E28490"
+	icon: {
+		id: "irons_spellbooks:arcane_anvil"
+	}
+	id: "6BD5E38DE0EB888E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

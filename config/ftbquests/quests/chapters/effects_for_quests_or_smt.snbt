@@ -1,0 +1,303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "effects_for_quests_or_smt"
+	group: ""
+	icon: {
+		id: "justdirethings:upgrade_glowing"
+	}
+	id: "38F0166324E7DEFE"
+	images: [
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:block/black_hole_aura_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/attract.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner/protection.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/summon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open_ctm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/alert.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "fdbosses:item/lightning_core"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:block/black_hole_aura_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/inner/protection.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/summon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier"
+			rotation: 120.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier"
+			rotation: 60.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open_ctm"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open_ctm"
+			rotation: 180.0d
+			width: 1.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open_ctm"
+			rotation: -90.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "forbidden_arcanus:textures/effect/magic_circle/outer/attract.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "fdbosses:item/lightning_core"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 5.7d
+			image: "chipped:block/blackstone/flat_blackstone_tiles"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "powah:block/spirited_crystal_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "powah:block/spirited_crystal_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "powah:block/spirited_crystal_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "powah:block/spirited_crystal_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "forbidden_arcanus:textures/mob_effect/darkened.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:item/essence_of_the_storm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

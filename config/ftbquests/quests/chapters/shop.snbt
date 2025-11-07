@@ -1,0 +1,406 @@
+{
+	autofocus_id: "373011305E049246"
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "shop"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "farmingforblockheads:market"
+	}
+	id: "66364AE3B7F96975"
+	images: [
+		{
+			height: 2.0d
+			image: "ftblibrary:icons/money_bag"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "ftblibrary:icons/money_bag"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "quark:textures/entity_icon/variants/pig_shiny.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "farmingforblockheads:market"
+			}
+			id: "373011305E049246"
+			rewards: [{
+				count: 2
+				id: "09103BD17387497F"
+				item: {
+					count: 1
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0F6BFCB20C4ECDC5"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["373011305E049246"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "28CD4A00CD1CF0A5"
+			rewards: [{
+				id: "37C9D77FB78B4D97"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4D557366126FC6BC"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}
+			id: "63BBF843121D2B19"
+			rewards: [{
+				id: "335480947EC19A02"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6F30A899E336ABA1"
+				item: { count: 1, id: "kubejs:silver_coin" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			id: "1EAF89996C4725B8"
+			rewards: [{
+				id: "25BB0AC6D89FCABA"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7F0BA11ABDD64BE7"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			hide_details_until_startable: true
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "3BED38819FA66E17"
+			rewards: [{
+				count: 64
+				id: "3FD85BCD6C98F442"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "09C2CC222E958BEB"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "72F3351DD5023645"
+			rewards: [{
+				count: 64
+				id: "3A8E088F6008FA42"
+				item: {
+					count: 1
+					id: "minecraft:sand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2ED884BC1BEFC98C"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			icon: {
+				id: "minecraft:andesite"
+			}
+			id: "3E7F38DC2B2326F5"
+			rewards: [{
+				count: 64
+				id: "007B3B72B94F61D2"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1BE976F413BFDEED"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:deepslate"
+			}
+			id: "410E59A317168915"
+			rewards: [{
+				count: 64
+				id: "0C9ABA3545C4D761"
+				item: {
+					count: 1
+					id: "minecraft:deepslate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6D9B6FFE7C4EAE4E"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:tuff"
+			}
+			id: "1D1BFA5A08013BDA"
+			rewards: [{
+				count: 64
+				id: "51701584154FB36E"
+				item: {
+					count: 1
+					id: "minecraft:tuff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "46D03F035E997E49"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:granite"
+			}
+			id: "362A11BD1C327A3D"
+			rewards: [{
+				count: 64
+				id: "25DA66441D36837F"
+				item: {
+					count: 1
+					id: "minecraft:granite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "262FE586B26B774C"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2:item_storage_cell_1k"
+			}
+			id: "264CD275B965A366"
+			rewards: [{
+				id: "3D2E03C035B055C7"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_1k"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4A5DE19A9EA8AF69"
+				item: { count: 1, id: "kubejs:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "a_man_with_plushies:plush_box"
+			}
+			id: "58035B4510993685"
+			rewards: [{
+				id: "7427C4A8448BD638"
+				item: {
+					count: 1
+					id: "a_man_with_plushies:plush_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4578AF5123702405"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["373011305E049246"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_lock_icon: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "a_man_with_plushies:golden_plush_box"
+			}
+			id: "612FA70C24F09C66"
+			rewards: [{
+				id: "3C3479A2E56F9205"
+				item: {
+					count: 1
+					id: "a_man_with_plushies:golden_plush_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2D24619C0C031DCE"
+				item: { count: 1, id: "kubejs:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+	]
+}

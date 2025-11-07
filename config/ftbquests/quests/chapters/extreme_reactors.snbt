@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "3D282C6088161E85"
+	icon: {
+		id: "bigreactors:basic_reactorcontroller"
+	}
+	id: "386525CB326B1F69"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

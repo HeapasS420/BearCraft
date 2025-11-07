@@ -1,0 +1,11 @@
+# Extensions
+**/*.log
+**/*.gz
+**/*.DS_Store
+**/*.jar
+**/*.mrpack
+**/*.code-workspace
+**/*.zip
+
+# Pakku
+build/

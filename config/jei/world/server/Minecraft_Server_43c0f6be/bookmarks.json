@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":"productivebees:spacial","type":"cy.jdkdigital.productivebees.common.crafting.ingredient.BeeIngredient","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createfood:cream_cake"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"a_man_with_plushies:plush_box"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

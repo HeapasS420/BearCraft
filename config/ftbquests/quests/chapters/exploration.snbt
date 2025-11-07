@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "6FEC61732917EBD2"
+	icon: {
+		id: "minecraft:oak_sapling"
+	}
+	id: "2B83127FB50B3187"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

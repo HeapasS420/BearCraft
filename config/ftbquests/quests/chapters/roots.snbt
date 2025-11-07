@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "roots"
+	group: "39DDDDAC29E28490"
+	icon: {
+		id: "roots:staff"
+	}
+	id: "1929D4169DA4AD7F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

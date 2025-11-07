@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reliuary"
+	group: "39DDDDAC29E28490"
+	icon: {
+		id: "reliquary:alkahestry_tome"
+	}
+	id: "1D9F3309325691E3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

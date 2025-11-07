@@ -1,0 +1,13 @@
+[debug]
+	#if true, will suppress all reputation changes from being display on the client
+	suppress_reputation_changes = true
+
+[particles]
+	#if true, translucent particles will be rendered with quads sorted to improve rendering and prevent overlapping translucent particles from disappearing
+	delayed_particles = true
+
+[overlays]
+	#if true, the aqua bubble overlay will be displayed in first person while the player has an active Aqua Bubble effect
+	aqua_bubble_overlay = true
+	#if true, the warning overlay will be displayed whenever a mob targets you while holding the Alertness charm (or equipped in a suitable Curios slot)
+	warning_overlay = true

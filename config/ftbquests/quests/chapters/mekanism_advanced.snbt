@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_advanced"
+	group: "0E0B55558E399EC7"
+	icon: {
+		id: "mekanismgenerators:fission_reactor_port"
+	}
+	id: "658CB0A186B44658"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+}

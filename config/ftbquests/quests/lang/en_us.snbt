@@ -1,0 +1,143 @@
+{
+	chapter.0DDE68C8CDD6CC55.title: "Building"
+	chapter.180040768056A4FE.title: "Mekanism"
+	chapter.1929D4169DA4AD7F.title: "Roots"
+	chapter.1AEEB3FCE236862E.title: "Create Addons"
+	chapter.1B2A8FF129E0BA92.title: "QoL"
+	chapter.1D9F3309325691E3.title: "Reliquary"
+	chapter.1FE9AD48D2D7EED9.title: "Ars"
+	chapter.24B19BEED3965B44.title: "Forbidden Arcanus"
+	chapter.2B83127FB50B3187.title: "Exploration"
+	chapter.37CC35F9B19CDB40.title: "New Beginnings"
+	chapter.386525CB326B1F69.title: "Reactors"
+	chapter.38F0166324E7DEFE.title: "Effects for quests or smt"
+	chapter.3DD84465847ECC10.title: "Sophisticated Storage"
+	chapter.408682CA16CB8CB1.title: "Oritech"
+	chapter.43EE3CD6190639BD.title: "Create"
+	chapter.4A2A1043E4F4354D.title: "Final Fight"
+	chapter.519BB8702EC987F6.title: "Take Out His Minions"
+	chapter.62A500A396546E7E.title: "Sophisticated Storage/Backpacks"
+	chapter.6460F869ABAA07FF.title: "Occultism"
+	chapter.66364AE3B7F96975.title: "Shop"
+	chapter.6BD5E38DE0EB888E.title: "Iron Spellbooks and Spells"
+	chapter.6D5C9E40336302C5.title: "Refined Storage"
+	chapter.6E3E5B20E97A5A66.title: "AE2"
+	chapter.761294DA7F816EBE.title: "Other Generators"
+	chapter_group.0B4CEBBE40D5C85D.title: "TEST"
+	chapter_group.0DE07ED33EB86FD7.title: "Storage"
+	chapter_group.0E0B55558E399EC7.title: "Technology"
+	chapter_group.16BCC4CF0A5D7968.title: "Create"
+	chapter_group.39DDDDAC29E28490.title: "Magic"
+	chapter_group.3D282C6088161E85.title: "Power Generation"
+	chapter_group.623A6E7994E3A094.title: "Main Questline"
+	chapter_group.6FEC61732917EBD2.title: "Misc"
+	quest.0CFCA88E52A6D771.quest_desc: [
+		"The Wither must be a minion to whatever is controlling this darkness."
+		""
+		"It dropped an eye which seems to lead me to strange portal that requires even more eyes..."
+		""
+		"Could this mean it needs an eye from each one of the bosses minions?"
+	]
+	quest.0D0572CA6AFF545D.quest_subtitle: "lol"
+	quest.12DAD62E94B061C5.quest_desc: ["Ferricore? It seems better than iron... but still not good enough."]
+	quest.1521C29DF9D782AB.quest_desc: ["This lets me sleep anywhere! How useful!"]
+	quest.1BFB1B86EFDBC580.quest_desc: [
+		"Getting to The End is not so easy... you must collect each individual eye to access the portal. "
+		""
+		"Some can be crafted, some are found, and some are from killing bosses."
+	]
+	quest.1D1BFA5A08013BDA.title: "Tuff"
+	quest.1EAF89996C4725B8.quest_subtitle: "MORE STORAGE"
+	quest.1EAF89996C4725B8.title: "Iron Chest Upgrade"
+	quest.219C80CCEEEE031D.quest_desc: ["there are different way to get power in the create mod, for starters you can use wind with windmills or use water wheels "]
+	quest.219C80CCEEEE031D.title: "Rotational Power"
+	quest.264CD275B965A366.title: "1k Storage Cell"
+	quest.26BBC96B589CBD54.quest_subtitle: "A cheap way to store power"
+	quest.28CD4A00CD1CF0A5.title: "Starter Backpack"
+	quest.2B56E0283E366D69.quest_desc: [
+		"This place seems familiar..."
+		""
+		"you should stick to your roots and do the basics."
+	]
+	quest.2B56E0283E366D69.title: "Make a Crafting Table"
+	quest.32B48ECD433E4976.quest_desc: ["It's all lead up to this... hope you're prepared"]
+	quest.32B48ECD433E4976.title: "FINAL FIGHT"
+	quest.35AEC447FC8155DE.quest_desc: [
+		"Rightclick on furniture from"
+		"Handcrafted, to add pillows"
+		"Beds / Chairs"
+	]
+	quest.35AEC447FC8155DE.title: "Cushion"
+	quest.362A11BD1C327A3D.title: "Granite"
+	quest.373011305E049246.quest_desc: [
+		"Redeem BearCoins for different items! Some items are repeatable purchases while some are not. "
+		""
+		"You gain BearCoins through completed other quests!"
+		""
+		"BearCoins come in copper, silver, and gold. With the higher tiers being craftable from the lower ones"
+	]
+	quest.373011305E049246.title: "Welcome to the Shop!"
+	quest.3A2A30F3EF2431A2.quest_desc: [
+		"Tool Version of the workstations"
+		"just like the Chisel mod !"
+	]
+	quest.3B24E7FCF4D7B1CF.quest_subtitle: "the essentials if you want to truly understand why you are doing"
+	quest.3BA8CF9CD9C2C418.quest_desc: [
+		"Rightclick on furniture from"
+		"Handcrafted, to add pillows"
+		"Beds / Chairs"
+	]
+	quest.3BA8CF9CD9C2C418.title: "Cushion"
+	quest.3BED38819FA66E17.quest_desc: ["Peak laziness"]
+	quest.3BED38819FA66E17.title: "Cobblestone"
+	quest.3E7F38DC2B2326F5.title: "Andesite"
+	quest.410E59A317168915.title: "Deepslate"
+	quest.412D07887FBB897D.title: "Create Stuff 'N Additions"
+	quest.43A482A150806472.quest_desc: ["the rolling mill is the base of the addon Crafts and Addition which you will use to make most of the base components of the mod"]
+	quest.43A482A150806472.title: "Create Crafts \\& Additions"
+	quest.482DFBE162284D67.title: "HandCrafted"
+	quest.4BCCF854DD6FF8AD.quest_desc: ["Get to smelting!"]
+	quest.5035CB52F4EDD97C.quest_subtitle: "the Water Wheel is good, but the Large Water Wheel is better!"
+	quest.523BBBF6C1DDB0E5.quest_desc: ["whilst windmills and water wheels are good, you will eventually come to a point where they wont generate enough su and you will need to make a stronger power source which is steam"]
+	quest.556B1E0716F24838.title: "Building Gadgets"
+	quest.58035B4510993685.quest_subtitle: "Plushies!!!"
+	quest.58035B4510993685.title: "Plush Box"
+	quest.5A1D6B95AA08C800.quest_desc: [
+		"I sense a great evil in this place... I am going to summon a Wither and see if he can tell me anything."
+		""
+		""
+		"I don't think he wants to do any talking though..."
+	]
+	quest.60DA48D7FB00C32A.quest_desc: [
+		"Chipped is a great alternative to the chisel mod&r"
+		"adds multiple workstations"
+		"where u can transform blocks into alternative versions"
+		"to add some variation to your builds ! "
+		"( all workstations do the same now ! )"
+	]
+	quest.60DA48D7FB00C32A.quest_subtitle: "Chipped Workstations"
+	quest.612FA70C24F09C66.quest_subtitle: "MORE PLUSHIES!!!"
+	quest.6330E1B2F50DE3D6.quest_desc: ["You decide to get some basic tools from the resources around you"]
+	quest.63BBF843121D2B19.title: "Stack Upgrade"
+	quest.661626787A8DF706.quest_desc: [
+		"Upgrades people, UPGRADES"
+		""
+		"Maybe you can mine better resources with this"
+	]
+	quest.6886216FCA71B404.quest_desc: ["Ooo Shiny"]
+	quest.6B6A7FDA8FE43A84.title: "Schematics"
+	quest.72F3351DD5023645.title: "Sand"
+	quest.72F707F2E65DE98C.title: "The Beginning"
+	quest.7544B1419E23BF0A.quest_desc: ["This goo seems to have special powers... what if I place an iron block on it?"]
+	quest.7E660BF58E4A253D.title: "Let's Create!"
+	quest.7EBB1A13FE1584A8.quest_desc: ["These torches seem to light up the area around me when I hold them... how useful."]
+	quest.7ECD50A55CD44C45.quest_desc: ["Iron will do for now, but I feel like there is something better..."]
+	task.00A247B0E9CECA25.title: "Chipped"
+	task.12E236CE80E2E409.title: "lets create"
+	task.1D8ED608088E8C20.title: "rotational power"
+	task.2604615281B87740.title: "Welcome to Create!"
+	task.4B2DD24D2A4B3BAE.title: "Building"
+	task.4E041A15F06FE2B1.title: "Building"
+	task.5EACF60CCFC5129C.title: "Gather the Eyes"
+	task.5FB05B28683A7C12.title: "Create Stuff 'N Additions"
+}

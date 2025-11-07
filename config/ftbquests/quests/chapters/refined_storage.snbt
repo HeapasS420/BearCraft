@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "0DE07ED33EB86FD7"
+	icon: {
+		id: "refinedstorage:controller"
+	}
+	id: "6D5C9E40336302C5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,9 @@
+["Custom Plushie Registry"]
+	#If true, enables custom plushies to be read from this file and appear in plush boxes
+	"Enable Custom Plushies" = false
+	#Here you can add custom plushies to appear in plush boxes on the common rarity
+	"Common Plushies [Alt]" = ["example_id:example_plush1", "example_id:example_plush2"]
+	#Here you can add custom plushies to appear in plush boxes on the uncommon rarity
+	"Uncommon Plushies [Alt]" = ["example_id:example_plush1", "example_id:example_plush2"]
+	#Here you can add custom plushies to appear in plush boxes on the rare rarity
+	"Rare Plushies [Alt]" = ["example_id:example_plush1", "example_id:example_plush2"]

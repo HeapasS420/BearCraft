@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_generators"
+	group: "3D282C6088161E85"
+	icon: {
+		id: "mekanismgenerators:wind_generator"
+	}
+	id: "180040768056A4FE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

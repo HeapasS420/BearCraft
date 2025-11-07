@@ -1,0 +1,348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "6FEC61732917EBD2"
+	icon: {
+		id: "handcrafted:hammer"
+	}
+	id: "0DDE68C8CDD6CC55"
+	images: [
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.9976190476190325d
+			y: 1.3996598639455726d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7078231292516932d
+			y: 4.522108843537403d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.303741496598626d
+			y: 2.522108843537403d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.303741496598626d
+			y: 4.501700680272094d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9976190476190325d
+			y: 4.909863945578223d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.7078231292516932d
+			y: 2.4812925170067928d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "561F6A452D56B335"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "0FDBDE8872AF6C2E"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: 1.6999999999999993d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "0DBD76C02BF76837"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "2DA915FE9D5F6E1D"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
+			x: 4.300000000000001d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "6D24FE525B258BBD"
+			shape: "none"
+			tasks: [{
+				id: "264A4F76D50CC41C"
+				item: { count: 1, id: "chipped:loom_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.9d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "572573A463527705"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "476AFA8BCBF2FFD1"
+				item: { count: 1, id: "chipped:glassblower" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "61921A502D73D63D"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "048E63A06E7F2E07"
+				item: { count: 1, id: "chipped:alchemy_bench" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			dependency_requirement: "one_completed"
+			id: "12B0B862188A0CDA"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "22FC4A5825236B14"
+				item: { count: 1, id: "chipped:botanist_workbench" }
+				type: "item"
+			}]
+			x: 0.6999999999999993d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "78FF36663338EFB2"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "25A176EFA67809E1"
+				item: { count: 1, id: "chipped:tinkering_table" }
+				type: "item"
+			}]
+			x: 5.300000000000001d
+			y: 2.5d
+		}
+		{
+			id: "60DA48D7FB00C32A"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "00A247B0E9CECA25"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "handcrafted:oak_chair"
+			}
+			id: "482DFBE162284D67"
+			shape: "hexagon"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60DA48D7FB00C32A"]
+			id: "3A2A30F3EF2431A2"
+			shape: "none"
+			tasks: [
+				{
+					id: "656A765228771656"
+					item: { count: 1, id: "chipped:chisel" }
+					type: "item"
+				}
+				{
+					id: "41DC4F496D117CAB"
+					item: { count: 1, id: "chipped:alchemy_book" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DCEAFA377D3243C"
+					item: { count: 1, id: "chipped:saw" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A0F20E4CD349F8B"
+					item: { count: 1, id: "chipped:needles" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "72F63D6059FF214E"
+					item: { count: 1, id: "chipped:multimeter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "743F900E847C6642"
+					item: { count: 1, id: "chipped:watering_can" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.4d
+		}
+		{
+			dependencies: ["482DFBE162284D67"]
+			id: "3BA8CF9CD9C2C418"
+			tasks: [{
+				id: "2AF4BE86E985AB65"
+				item: { count: 1, id: "handcrafted:red_cushion" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["482DFBE162284D67"]
+			id: "35AEC447FC8155DE"
+			tasks: [{
+				id: "2CC285C7C1E959B1"
+				item: { count: 1, id: "handcrafted:red_sheet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "charginggadgets:charging_station"
+			}
+			id: "556B1E0716F24838"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["556B1E0716F24838"]
+			id: "2A6AE8DE597A0C7C"
+			tasks: [{
+				id: "33073B42B7E75C72"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["556B1E0716F24838"]
+			id: "78C9D884AD9B92B8"
+			tasks: [{
+				id: "2A30BA6A989C32E9"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["556B1E0716F24838"]
+			id: "3EDEDB50E039F78A"
+			tasks: [{
+				id: "3C23B2700EA9B397"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["556B1E0716F24838"]
+			id: "784E9BEF37A79A6A"
+			tasks: [{
+				id: "38C04786DB9C2E64"
+				item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["556B1E0716F24838"]
+			id: "6A817D93D0B5D992"
+			tasks: [{
+				id: "1003DBA46DB43470"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["556B1E0716F24838"]
+			id: "6B6A7FDA8FE43A84"
+			tasks: [
+				{
+					id: "7009B0CA9A9D6AE5"
+					item: { count: 1, id: "buildinggadgets2:template" }
+					type: "item"
+				}
+				{
+					id: "3D93AE94E1AC6467"
+					item: { count: 1, id: "buildinggadgets2:template_manager" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "40252708A93C0B28"
+			size: 1.25d
+			tasks: [{
+				id: "4E041A15F06FE2B1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

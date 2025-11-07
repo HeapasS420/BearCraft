@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol"
+	group: "6FEC61732917EBD2"
+	icon: {
+		id: "alltheores:iron_gear"
+	}
+	id: "1B2A8FF129E0BA92"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

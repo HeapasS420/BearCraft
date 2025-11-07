@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "0E0B55558E399EC7"
+	icon: {
+		id: "industrialforegoing:machine_frame_simple"
+	}
+	id: "2D0AE5C69951CE39"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

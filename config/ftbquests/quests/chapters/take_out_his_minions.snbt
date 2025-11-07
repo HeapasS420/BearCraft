@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "take_out_his_minions"
+	group: "623A6E7994E3A094"
+	id: "519BB8702EC987F6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

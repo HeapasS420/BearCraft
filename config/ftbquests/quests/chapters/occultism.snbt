@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "39DDDDAC29E28490"
+	icon: {
+		id: "occultism:book_of_binding_empty"
+	}
+	id: "6460F869ABAA07FF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+}

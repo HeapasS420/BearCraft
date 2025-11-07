@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "0DE07ED33EB86FD7"
+	icon: {
+		components: {
+			"sophisticatedstorage:wood_type": "oak"
+		}
+		id: "sophisticatedstorage:iron_barrel"
+	}
+	id: "3DD84465847ECC10"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

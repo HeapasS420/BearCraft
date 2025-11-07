@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "final_fight"
+	group: "623A6E7994E3A094"
+	id: "4A2A1043E4F4354D"
+	images: [{
+		height: 3.0d
+		image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle4.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6674BEC30CF7765D"
+				"51C5198DEAA9A045"
+				"57677DB3202DB037"
+				"5FAEBD7C7E64E0E4"
+				"4818425D06140272"
+				"13E1091E9ADAD276"
+				"2943AC97C9C7C7B9"
+				"05FB9569617118CE"
+				"77EE44A58641DA9C"
+				"09DEEF253BBB681D"
+				"4B71D712C0356182"
+				"05B161230A0DC494"
+			]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "32B48ECD433E4976"
+			tasks: [{
+				icon: {
+					id: "endrem:ancient_portal_frame"
+				}
+				id: "061B4419817DA02E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "endrem:ancient_portal_frame"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6674BEC30CF7765D"
+			rewards: [{
+				id: "0778BEA5F7640325"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA37731063B1DDA"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "5FAEBD7C7E64E0E4"
+			rewards: [{
+				id: "28FAF067827EAEBF"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CD1F27DDD16856D"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "51C5198DEAA9A045"
+			rewards: [{
+				id: "17DFB48C27A806C4"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7551C6FDFB6819E6"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "57677DB3202DB037"
+			rewards: [{
+				id: "476C49FA11DB412C"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BEC00F1072124D0"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "4818425D06140272"
+			rewards: [{
+				id: "24D810D108E0770C"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00221AD3A16620CC"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "13E1091E9ADAD276"
+			rewards: [{
+				id: "2DECBEA822E0B7E2"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25501E5E1C9D817F"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "77EE44A58641DA9C"
+			rewards: [{
+				id: "187C7A6401CD6377"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DD3E3CECCA846F3"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "09DEEF253BBB681D"
+			rewards: [{
+				id: "35B6289760990245"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0037933CFC1D2A2F"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "4B71D712C0356182"
+			rewards: [{
+				id: "322CEE8BE5F6C3E4"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B9FE3DA9BA667E1"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "05FB9569617118CE"
+			rewards: [{
+				id: "52DB074BDBF51397"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68D2CB59CB9E45FE"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "2943AC97C9C7C7B9"
+			rewards: [{
+				id: "2A9A315606DF0237"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37EF3F8BD675DE8C"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "05B161230A0DC494"
+			rewards: [{
+				id: "1612054D6FE73F81"
+				item: {
+					count: 1
+					id: "kubejs:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "715311B4A0C2BC42"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "1BFB1B86EFDBC580"
+			rewards: [{
+				id: "071E10E7912181D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5EACF60CCFC5129C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

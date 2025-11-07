@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "0E0B55558E399EC7"
+	icon: {
+		id: "oritech:machine_core_2"
+	}
+	id: "3EB2D4291C1C398C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}
