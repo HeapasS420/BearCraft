@@ -1,6 +1,6 @@
 name: Project Build
 
-on [push]
+on: [push]
 
 jobs:
   build-pack:
