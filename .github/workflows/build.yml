@@ -23,7 +23,7 @@ jobs:
         java -jar pakku.jar export
 
     - name: Upload artifact CurseForge
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v5.0.0
       with:
         name: ${{ needs.info.outputs.project_full_name }}-curseforge
         path: ./build/curseforge/BearCraft*.zip
