@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build-pack:
     name: Use pakku to build the curseforge pack
-    runs-on: ubuntu-lts
+    runs-on: ubuntu-latest
     
     steps:
     
